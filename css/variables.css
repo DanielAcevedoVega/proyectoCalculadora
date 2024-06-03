@@ -1,0 +1,17 @@
+:root{
+    --colorBackgroundBlack: #17171C;
+    --colorBackgroundWhite: #fff;
+    --colorBotonBackgroundBlack: #2E2F38;
+    --colorBotonBlack: #4E505F;
+    --colorBotonBackgroundLigth: #f8f8f8;
+    --colorBotonLigth: #D2D3DA;
+}
+
+@font-face {
+    font-family: 'WorkSans-Light';
+    src: url(../storage/font/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url(../storage/font/WorkSans-Regular.ttf);
+}

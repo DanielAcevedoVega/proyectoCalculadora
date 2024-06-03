@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <label id="switch">
+        <input type="checkbox">
+        <span class="slider round">
+            <img src="storage/img/sun.svg">
+            <img src="storage/img/moon.svg">
+        </span>
+    </label>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="history" disabled>
+            <input type="text" id="inputBox" value="0" disabled>
+        </div>
+        <div class="row">
+            <button type="button" class="opr color1">C</button>
+            <button type="button" id="plusMinus" class="color1">
+                <img src="storage/img/invert.svg">
+            </button>
+            <button type="button" class="opr color1">%</button>
+            <button type="button" class="opr color3">÷</button>
+        </div>
+        <div class="row">
+            <button type="button" class="color2">7</button>
+            <button type="button" class="color2">8</button>
+            <button type="button" class="color2">9</button>
+            <button type="button" class="opr color3">x</button>
+        </div>
+        <div class="row">
+            <button type="button" class="color2">4</button>
+            <button type="button" class="color2">5</button>
+            <button type="button" class="color2">6</button>
+            <button type="button" class="opr color3">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="color2">1</button>
+            <button type="button" class="color2">2</button>
+            <button type="button" class="color2">3</button>
+            <button type="button" class="opr color3">+</button>
+        </div>
+        <div class="row">
+            <button type="button" class="color2">.</button>
+            <button type="button" class="color2">0</button>
+            <button type="button" class="color2" id="deleteBtn">
+                <img src="storage/img/delete.svg">
+            </button>
+            <button type="button" id="eqBtn" class="color3">=</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
